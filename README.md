@@ -1,13 +1,45 @@
-# React + Vite
+# 🧩 React Global Error Handling Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple yet powerful React app demonstrating **global error handling**, **API error management**, and **custom error UI overlays** – all with a clean modern design using **Tailwind CSS**.
 
-Currently, two official plugins are available:
+It fetches data from `jsonplaceholder.typicode.com` by post ID and handles:
+- Empty input
+- Invalid post ID
+- Network/API errors
+- Syntax/runtime errors (even globally!)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Global_Error_Handling
+✅ Fetch post by ID  
+🚨 Global error overlay with custom UI  
+🧯 API error catching with graceful fallback  
+🔄 Reload and Retry options  
+⚙️ React 19-compatible error boundaries  
+✨ Clean & responsive UI with Tailwind CSS
+
+---
+
+## 📦 Tech Stack
+
+- **React (Functional Components)**
+- **Tailwind CSS**
+- **Error Boundaries (React 19 style)**
+- **Global Error Listeners (window.onerror, unhandledrejection, etc.)**
+- **Vanilla JavaScript for global error overlay**
+
+---
+
+## 🚀 How to Run
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/react-global-error-handler.git
+cd react-global-error-handler
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
