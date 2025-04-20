@@ -36,7 +36,7 @@ It fetches data from `jsonplaceholder.typicode.com` by post ID and handles:
 ```bash
 # Clone the repo
 git clone https://github.com/your-username/react-global-error-handler.git
-cd react-global-error-handler
+cd [To the App Folder]
 
 # Install dependencies
 npm install
