@@ -1,4 +1,4 @@
-# 🧩 React Global Error Handling Demo
+# React Global Error Handling Demo
 
 This is a simple yet powerful React app demonstrating **global error handling**, **API error management**, and **custom error UI overlays** – all with a clean modern design using **Tailwind CSS**.
 
@@ -10,18 +10,18 @@ It fetches data from `jsonplaceholder.typicode.com` by post ID and handles:
 
 ---
 
-## 🛠 Features
+## Features
 
-✅ Fetch post by ID  
-🚨 Global error overlay with custom UI  
-🧯 API error catching with graceful fallback  
-🔄 Reload and Retry options  
-⚙️ React 19-compatible error boundaries  
-✨ Clean & responsive UI with Tailwind CSS
+Fetch post by ID  
+Global error overlay with custom UI  
+API error catching with graceful fallback  
+Reload and Retry options  
+React 19-compatible error boundaries  
+Clean & responsive UI with Tailwind CSS
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 - **React (Functional Components)**
 - **Tailwind CSS**
@@ -31,7 +31,7 @@ It fetches data from `jsonplaceholder.typicode.com` by post ID and handles:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 # Clone the repo
